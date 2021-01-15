@@ -1,23 +1,23 @@
 
 ## ინსტრუქცია
 ```
-cd project <br>
-cp .env.example .env <br>
+cd project 
+cp .env.example .env 
 php artisan key:generate
 ```
 ## დატაბაზასთან დაკავშირება
 ```
-DB_CONNECTION=mysql <br>
-DB_HOST=localhost <br>
-DB_PORT=3306 <br>
-DB_DATABASE=your db name <br>
-DB_USERNAME=your username <br>
-DB_PASSWORD=your password <br>
+DB_CONNECTION=mysql 
+DB_HOST=localhost 
+DB_PORT=3306 
+DB_DATABASE=your db name 
+DB_USERNAME=your username 
+DB_PASSWORD=your password 
 ```
 ## მიგრაციები
 ```
-php artisan migrate <br>
-php artisan db:seed <br>
+php artisan migrate 
+php artisan db:seed 
 ```
 ## Mailtrap-თან დაკავშირება
 ```
@@ -33,6 +33,6 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ## ტესტ იუზერი
 ```
-test123@gmail.com <br>
+test123@gmail.com 
 test1234
 ```
